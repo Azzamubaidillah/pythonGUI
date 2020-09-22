@@ -42,7 +42,7 @@ openFile = tk.Button(root, text="Open FIle", padx=10,
 openFile.pack()
 
 runApps = tk.Button(root, text="Run Apps", padx=10, 
-                    pady=5, fg="white", bg="#263D42")
+                    pady=5, fg="white", bg="#263D42", command=runApps)
 
 runApps.pack()
 
